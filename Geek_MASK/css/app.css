@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    }
+/* header */
+header{
+    background-color: rgb(255,159,175);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header h1{                               
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#head{
+    text-align: left;
+}
+/* 1section */
+#1st-section{
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    padding-bottom: 3px;
+}
+/* タイトルデザ */
+#title1{
+    font-size: 20px;
+    padding: 40px;
+}
+.boxes1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 10x;
+}
+.circle1{
+    display: inline-block;
+    background-color:rgb(191,274,44);
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+/* 2行以上用の円 */
+.circle2 {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background:rgb(191,274,44);
+  }
+  
+  .circle2 span {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 200px;
+    text-align:center;
+  }
+h1{
+    text-align: center;
+}
+/* 第二セクション */
+#section2{
+    background-color: rgb(255,159,175);
+    height: 180px;
+    width: 100%;
+}
+.content2{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* 第3セクション */
+.section3{
+    background-color: white;
+    width: auto;
+}
+
+.info{
+    margin-bottom: 60px;
+}
+
+.info span{
+    font-size: 30px;
+}
+ul{
+    display: flex;
+}
+#right{
+    display: block;
+    text-align: right;
+}
+
+/*bottom */
+.bottom{
+    background-image: url(../imgages/app/background-image.png);
+    background-size: 50%;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.square-mod{
+    display: inline-block;
+    background-color: rgb(255,159,175);
+    width: 600px;
+    height: 90px;
+    border-radius: 10%;
+    line-height: 90px;
+    text-align: center;
+}
+.square-mod span{
+    font-size: 30px;
+    text-align: ceter;
+}
+.button-p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.button{
+    background-color: rgb(204, 203, 203);
+    height: 40px;
+    width:180px;
+    font-size: 30px;
+    text-align: center;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b61515;
+}
+
+/* フッターの設定 */
+footer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+  background-color: #000;
+  font-size: 15px;
+  color: #fff;
+}

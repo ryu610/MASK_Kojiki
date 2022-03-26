@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    }
+/* header */
+header{
+    position: relative;
+    display: flex;
+    background-color: rgb(255,159,175);
+    
+}
+
+header span{
+    font-size: 60px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* section1 */
+.student-info{
+    padding-top: 60px;
+    height:300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    position:relative;
+}
+/* 画像設定 */
+.image{
+    margin-bottom: 10px;
+}
+/* title設定 */
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+.content{
+    font-size: 36px;
+
+}
+/* footer */
+footer{
+    background-color: rgb(255,159,175);
+}
